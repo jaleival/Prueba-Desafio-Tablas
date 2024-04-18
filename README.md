@@ -3,7 +3,7 @@
 #### CREATE DATABASE peliculas;
 #### -- 2.- Crear tabla Películas y Reparto (1 Punto).
 #### CREATE TABLE peliculas (id INT PRIMARY KEY,pelicula VARCHAR(100),anio_estreno INT,director VARCHAR(50);
-#### CREATE TABLE reparto (reparto_id INT, actor VARCHAR(100), FOREIGN KEY(reparto_id) REFERENCES peliculas (id);
+#### CREATE TABLE reparto (peliculas_fk INT, actor VARCHAR(100), FOREIGN KEY(peliculas_fk) REFERENCES peliculas (id);
 #### -- Importamos los datos CSV de Películas y Reparto.
 #### copy reparto from 'C:\apoyoDesafiopeliculas\reparto.csv' delimiter ',' csv header;
 #### copy reparto from 'C:\apoyoDesafiopeliculas\reparto.csv' delimiter ',' csv header;
