@@ -4,4 +4,4 @@
 #### -- 2.- Crear tabla Películas y Reparto (1 Punto).
 #### CREATE TABLE peliculas (id INT PRIMARY KEY,pelicula VARCHAR(100),anio_estreno INT,director VARCHAR(50);
 #### -- 3.- Obtener el ID de la película "Titanic".
-#### [url=https://postimg.cc/ppPLK6gT][img]https://i.postimg.cc/ppPLK6gT/Resp3.jpg[/img][/url]
+#### [![Resp3.jpg](https://i.postimg.cc/jd7nYVcz/Resp3.jpg)](https://postimg.cc/ppPLK6gT)
